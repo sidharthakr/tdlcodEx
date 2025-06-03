@@ -44,7 +44,7 @@
       outputBox.textContent = "// Generating code...";
 
       try {
-        const res = await fetch("https://sidharthakr.app.n8n.cloud/webhook/generate-code", {
+        const res = await fetch("https://sidharthakr.app.n8n.cloud/webhook/tdl-gpt", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ user_input: prompt })
